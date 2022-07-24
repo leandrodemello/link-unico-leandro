@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@500;700&display=swap");
+
+/* ======== RESET ======== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ======== VARIABLES ======== */
+html {
+  /* Color Variables */
+  --primary-color: #4263eb;
+  --auxiliary-color: #364fc7;
+  --background-color: #edf2ff;
+  --text-color: #00082f;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    --primary-color: #4263eb;
+    --auxiliary-color: #364fc7;
+    --background-color: #00082f;
+    --text-color: #edf2ff;
+  }
+} */
+
+body.blue {
+  --primary-color: #4263eb;
+  --auxiliary-color: #364fc7;
+  --background-color: #edf2ff;
+  --text-color: #00082f;
+}
+
+body.dark-blue {
+  --primary-color: #4263eb;
+  --auxiliary-color: #364fc7;
+  --background-color: #00082f;
+  --text-color: #edf2ff;
+}
+
+body.pink {
+  --primary-color: #d6336c;
+  --auxiliary-color: #a61e4d;
+  --background-color: #fff0f6;
+  --text-color: #1f000b;
+}
+
+body.dark-pink {
+  --primary-color: #d6336c;
+  --auxiliary-color: #a61e4d;
+  --background-color: #1f000b;
+  --text-color: #fff0f6;
+}
+
+body.orange {
+  --primary-color: #f55e00;
+  --auxiliary-color: #d1580d;
+  --background-color: #fff6f0;
+  --text-color: #1f0c00;
+}
+
+body.dark-orange {
+  --primary-color: #f55e00;
+  --auxiliary-color: #d1580d;
+  --background-color: #291000;
+  --text-color: #fff6f0;
+}
+
+body.green {
+  --primary-color: #3b5f30;
+  --auxiliary-color: #2f4728;
+  --background-color: #f4fff0;
+  --text-color: #162412;
+}
+
+body.dark-green {
+  --primary-color: #3b5f30;
+  --auxiliary-color: #2f4728;
+  --background-color: #162412;
+  --text-color: #f4fff0;
+}
+
+body.red {
+  --primary-color: #a41623;
+  --auxiliary-color: #a61e29;
+  --background-color: #fff0f1;
+  --text-color: #3d0005;
+}
+
+body.dark-red {
+  --primary-color: #a41623;
+  --auxiliary-color: #a61e29;
+  --background-color: #3d0005;
+  --text-color: #fff0f1;
+}
+
+body.cyan {
+  --primary-color: #2a9d8f;
+  --auxiliary-color: #2c7a71;
+  --background-color: #f0fffd;
+  --text-color: #0c2e2a;
+}
+
+body.dark-cyan {
+  --primary-color: #2a9d8f;
+  --auxiliary-color: #2c7a71;
+  --background-color: #0c2e2a;
+  --text-color: #f0fffd;
+}
+
+body.yellow {
+  --primary-color: #e2b33c;
+  --auxiliary-color: #c29e42;
+  --background-color: #fcfff0;
+  --text-color: #29200b;
+}
+
+body.dark-yellow {
+  --primary-color: #e2b33c;
+  --auxiliary-color: #c29e42;
+  --background-color: #29200b;
+  --text-color: #fcfff0;
+}
+
+/* ======== LAYOUT ======== */
+body {
+  width: 300px;
+  margin: 40px auto 50px;
+
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* ======== HEADER ======== */
+header {
+  margin-bottom: 50px;
+}
+
+header h1 {
+  font-size: 26px;
+}
+
+/* ======== MAIN ======== */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 48px;
+}
+
+img.avatar {
+  width: 100px;
+  height: 100px;
+  padding: 3.7px;
+
+  border: var(--primary-color) solid 4px;
+  border-radius: 50%;
+}
+
+#container {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#username {
+  margin-bottom: 8px;
+
+  font-weight: 600;
+  font-size: 32px;
+}
+
+#nickname {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 18px;
+
+  opacity: 0.8;
+}
+
+ul {
+  list-style: none;
+  margin-top: 45px;
+}
+
+ul li a {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: var(--primary-color);
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+
+  margin-bottom: 16px;
+  border-radius: 6px;
+
+  transition: background 400ms;
+}
+
+ul li a:hover {
+  background-color: var(--auxiliary-color);
+
+  transform: translateY(-1.5px);
+}
+
+ul li a:hover .ph-behance-logo-fill,
+ul li a:hover .ph-github-logo-fill {
+  color: var(--auxiliary-color);
+}
+
+/* Adjustment to respect the design */
+
+/* ======== FOOTER ======== */
+footer {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--text-color);
+  opacity: 0.6;
+
+   transition: opacity 600ms ease-in;
+}
+
+footer:hover {
+  opacity: 0.85;
+}
+
+footer a {
+  color: var(--text-color);
+}
+
+/* ======== TOGGLE THEME ======== */
+.dark-mode,
+.light-mode {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  border-radius: 6px;
+  margin-top: 24px;
+  margin-right: 16px;
+
+  background-color: var(--primary-color);
+  color: white;
+  border: var(--primary-color);
+
+  cursor: pointer;
+  transition: background-color, border, transform 400ms ease-in-out;
+}
+
+.dark-mode:hover,
+.light-mode:hover {
+  background-color: var(--auxiliary-color);
+  border: var(--auxiliary-color);
+  transform: translateY(-1px);
+}
+
+.dark-mode i,
+.light-mode i {
+  font-size: 28px;
+}
+
+.switch-colors {
+  width: 40px;
+  height: 40px;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  margin-top: 80px;
+  margin-right: 16px;
+
+  background-color: var(--primary-color);
+  border: var(--primary-color);
+  border-radius: 100%;
+  cursor: pointer;
+
+  transition: background-color, border, transform 400ms ease-in;
+}
+
+.switch-colors:hover {
+  background-color: var(--auxiliary-color);
+  border: var(--auxiliary-color);
+
+  transform: scale(1.1);
+}
