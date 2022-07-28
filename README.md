@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Social Link
 RocketLink Esse projeto foi desenvolvido durante a Maratona Explorer 2.0 da Rocketseat.
 
@@ -20,27 +20,3 @@ As seguintes tecnologias foram usadas na construção do projeto:
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leandro-mello-47a24823b/)
 
 
-=======
-Social Links - RocketLink
-Esse projeto foi desenvolvido durante a Maratona Explorer 2.0 da Rocketseat.
-
-Informações Gerais • Tecnologias • Autor
-
-Animação
-
-Informações Gerais
-Projeto online
-Para acessar o projeto sem instalar nada em sua máquina basta clicar aqui!
-
-🛠 Tecnologias e Ferramentas
-As seguintes tecnologias foram usadas na construção do projeto:
-
-HTML
-
-CSS
-
-JavaScript
-
-Ferramentas
-Visual Studio Code
->>>>>>> 0428b8927f9e85ba019838b58bee435c38afd14a
