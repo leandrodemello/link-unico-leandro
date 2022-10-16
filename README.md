@@ -15,7 +15,7 @@ As seguintes tecnologias foram usadas na construção do projeto:
 - CSS
 - JavaScrip
 
-## 🔗 Links
+### 🔗 Link
 <a href="https://leandrodemello.github.io/link-unico-leandro/">Social Link</a>
 
 
