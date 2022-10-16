@@ -16,7 +16,6 @@ As seguintes tecnologias foram usadas na construção do projeto:
 - JavaScript
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/leandrodemello)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leandro-mello-47a24823b/)
+[![Social Link](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://leandrodemello.github.io/link-unico-leandro/)
 
 
