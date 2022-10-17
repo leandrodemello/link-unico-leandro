@@ -2,7 +2,7 @@
 # Social Link
 RocketLink Esse projeto foi desenvolvido durante a Maratona Explorer 2.0 da Rocketseat.
 
-## Funcionalidades
+## Funcionalidades 
 
 - Permite a integração de todas as redes sociais em um único local.
 - Modo noturno, com o recurso, a tela do PC ou tablet exibe cores quentes, que não agridem os olhos.
