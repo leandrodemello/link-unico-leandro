@@ -13,7 +13,7 @@ RocketLink Esse projeto foi desenvolvido durante a Maratona Explorer 2.0 da Rock
 As seguintes tecnologias foram usadas na construção do projeto:
 - HTML
 - CSS
-- JavaScrip
+- JavaScrip 
 
 ### 🔗 Link
 <a href="https://leandrodemello.github.io/link-unico-leandro/">Social Link</a>
