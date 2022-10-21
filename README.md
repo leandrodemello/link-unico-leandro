@@ -18,7 +18,7 @@ As seguintes tecnologias foram usadas na construção do projeto:
 ### 🔗 Link
 <a href="https://leandrodemello.github.io/link-unico-leandro/">Social Link</a>
 
-
+    
 
 
 
