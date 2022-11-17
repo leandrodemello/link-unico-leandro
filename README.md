@@ -17,7 +17,7 @@ As seguintes tecnologias foram usadas na construção do projeto:
 
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](<a href="https://leandrodemello.github.io/link-unico-leandro/">Social Link</a>)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://leandrodemello.github.io/link-unico-leandro)
 
 
     
