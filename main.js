@@ -34,3 +34,6 @@ buttonChangeColor.addEventListener("click", function () {
       (document.body.className = colorsName[giveRandomNumbers()]);
   }
 });
+
+
+
