@@ -21,6 +21,7 @@ buttonToggleTheme.addEventListener("click", function () {
 });
 
 
+
 function giveRandomNumbers() {
   return Math.floor(Math.random() * colorsName.length);
 }
